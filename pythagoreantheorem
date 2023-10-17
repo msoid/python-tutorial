@@ -1,0 +1,12 @@
+import math
+
+side_a = int(input("How many units should side A be?: "))
+side_b = int(input("How mnay units should side B be?: "))
+
+calc_a = math.sqrt(side_a)
+calc_b = math.sqrt(side_b)
+
+side_c = calc_a + calc_b
+
+side_c_fin = "%.2f" % side_c
+print("Side C of your custom triangle is approximatly: " + str(side_c_fin) + " units")
